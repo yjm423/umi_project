@@ -1,11 +1,8 @@
 import React, { FC } from 'react';
 
 import TreeSelector from './TreeSelector';
-
-// import MOCK from './mock'
-// import './App.css'
-
-// const { modelList } = MOCK
+import './detail.less';
+import { Tag } from 'antd';
 const modelList = [
   {
     name: '0-0',
@@ -68,7 +65,7 @@ interface List {
   count: number;
 }
 
-const user: FC = () => {
+const detail: FC = () => {
   function handleChange(list: Array<string>): void {
     const nameList = list.map(key => {
       const item = keyMap.get(key);
@@ -81,9 +78,11 @@ const user: FC = () => {
 
   return (
     <div className="App">
-      <TreeSelector onChange={handleChange} list={modelList} />
+      <Tag>1223</Tag>
+
+      {/* <TreeSelector onChange={handleChange} list={modelList} /> */}
     </div>
   );
 };
 
-export default user;
+export default detail;
