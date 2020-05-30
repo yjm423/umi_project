@@ -3,29 +3,29 @@ import React, { FC } from 'react';
 import TreeSelector from './TreeSelector';
 
 // import MOCK from './mock'
+
 // import './App.css'
 
 // const { modelList } = MOCK
+
 const modelList = [
   {
     name: '0-0',
     key: '0-0',
+
     children: [
       {
         name: '0-0-0',
         key: '0-0-0',
-        children: [
-          { name: '0-0-0-0', key: '0-0-0-0' },
-          { name: '0-0-0-1', key: '0-0-0-1' },
-          { name: '0-0-0-2', key: '0-0-0-2' },
-        ],
       },
+
       {
-        name: '0-0-1',
-        key: '0-0-1',
+        name: '0-0-33',
+
+        key: '0-0-55',
         children: [
-          { name: '0-0-1-0', key: '0-0-1-0' },
-          { name: '0-0-1-1', key: '0-0-1-1' },
+          { name: '0-0-1-0', key: '0-0-1-50' },
+          { name: '0-0-1-1', key: '0-0-1-61' },
           { name: '0-0-1-2', key: '0-0-1-2' },
         ],
       },
