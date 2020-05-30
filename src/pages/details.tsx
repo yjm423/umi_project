@@ -5,11 +5,11 @@ import './detail.less';
 import { Tag } from 'antd';
 const modelList = [
   {
-    name: '0-0',
+    name: '李四',
     key: '0-0',
     children: [
       {
-        name: '0-0-0',
+        name: '0-大撒旦法',
         key: '0-0-0',
         children: [
           { name: '0-0-0-0', key: '0-0-0-0' },
@@ -18,7 +18,7 @@ const modelList = [
         ],
       },
       {
-        name: '0-0-1',
+        name: '0-说的1',
         key: '0-0-1',
         children: [
           { name: '0-0-1-0', key: '0-0-1-0' },
