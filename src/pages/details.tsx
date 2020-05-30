@@ -12,7 +12,7 @@ const modelList = [
 
     children: [
       {
-        name: '����1',
+        name: '0-��������',
         key: '0-0-0',
         children: [
           { name: '0-0-0-0', key: '0-0-0-0' },
@@ -21,7 +21,7 @@ const modelList = [
         ],
       },
       {
-        name: '0-0-1',
+        name: '0-˵��1',
         key: '0-0-1',
         children: [
           { name: '0-0-1-0', key: '0-0-1-0' },
