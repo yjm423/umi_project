@@ -30,7 +30,7 @@ const modelList = [
         ],
       },
       {
-        name: '0-0-2',
+        name: '0-0-22',
         key: '0-0-2',
       },
     ],
@@ -39,7 +39,7 @@ const modelList = [
     name: '0-1',
     key: '0-1',
     children: [
-      { name: '0-1-0-0', key: '0-1-0-0' },
+      { name: '0-1-0-01', key: '0-1-0-0' },
       { name: '0-1-0-1', key: '0-1-0-1' },
       { name: '0-1-0-2', key: '0-1-0-2' },
     ],
