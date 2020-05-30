@@ -2,14 +2,17 @@ import React, { FC } from 'react';
 
 import TreeSelector from './TreeSelector';
 import './detail.less';
+
 import { Tag } from 'antd';
+
 const modelList = [
   {
-    name: '0-0',
+    name: '����',
     key: '0-0',
+
     children: [
       {
-        name: '0-0-0',
+        name: '����1',
         key: '0-0-0',
         children: [
           { name: '0-0-0-0', key: '0-0-0-0' },
