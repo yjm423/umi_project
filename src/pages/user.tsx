@@ -10,12 +10,12 @@ import TreeSelector from './TreeSelector';
 
 const modelList = [
   {
-    name: '0-0',
+    name: 'make',
     key: '0-0',
 
     children: [
       {
-        name: '0-0-0',
+        name: 'in china',
         key: '0-0-0',
       },
 
