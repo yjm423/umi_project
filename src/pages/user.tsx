@@ -12,7 +12,6 @@ const modelList = [
   {
     name: 'third',
     key: '0-0',
-
     children: [
       {
         name: '三',
