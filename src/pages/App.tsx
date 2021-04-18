@@ -1,12 +1,10 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect, useRef, useState } from 'react';
 
-import TreeSelector from './components/TreeSelector';
+import TreeSelector from '../pages/tree/TreeSelector';
 
-import MOCK from './mock';
-import './App.css';
+// import './App.css';
 
-const { modelList } = MOCK;
-
+let modelList: Array<any> = [];
 function getKeymap() {
   // let result: Array<object> = []
   const keyMap = new Map();
@@ -24,21 +22,8 @@ interface List {
   count: number;
 }
 
-const App: FC = () => {
-  function handleChange(list: Array<string>): void {
-    const nameList = list.map(key => {
-      const item = keyMap.get(key);
-      return item.name;
-    });
-
-    console.log(nameList);
-  }
-
-  return (
-    <div className="App">
-      <TreeSelector onChange={handleChange} list={modelList} />
-    </div>
-  );
+const App: FC = props => {
+  return <div className="App">app</div>;
 };
 
 export default App;

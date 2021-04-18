@@ -1,15 +1,20 @@
 import React from 'react';
-import styles from './index.less';
-import { Link } from 'umi';
-
-export default () => {
-  return (
-    <div>
-      <div>
-        <Link to="/">home</Link>&nbsp;
-        <Link to="/user">user</Link>
-        <Link to="/detail">detail</Link>
+import './index.less';
+class Home extends React.Component {
+  constructor(props: any) {
+    super(props);
+  }
+  render() {
+    return (
+      <div
+        style={{
+          height: '100%',
+          width: '100%',
+        }}
+      >
+        1222
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
+export default Home;
